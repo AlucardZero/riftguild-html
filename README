@@ -1,0 +1,21 @@
+Rift Guild Roster HTML generator
+
+License: MIT (see LICENSE)
+sorttable.js from http://www.kryogenix.org/code/browser/sorttable/ (also MIT)
+
+See example.png for an example of what it looks like.
+
+Requires: Perl, XML::LibXML, Date::Parse, and CGI::Compress::Gzip 
+ Change both mentions of CGI::Compress::Gzip to just CGI if you do not have or
+ want compressed output. This also may be required to debug it if it's not 
+ working.
+Requires a Web server set up to run Perl scripts as CGI and to look for 
+ 'index.pl' as an index page.
+Place the files in a folder served by your Web server. 
+The folder must be writable by the Web server user for caching to work (!).
+
+To regenerate based on new info, just upload a new guild.xml and refresh the 
+ page in your browser.
+
+Facilities for uploading via a form or for multiple guilds in the same folder
+ are not provided in this version.

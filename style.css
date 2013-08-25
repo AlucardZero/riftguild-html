@@ -1,0 +1,19 @@
+A:link{color:#ff6}
+A:visited{color:#9AF}
+A {font-size:90%;}
+body{ background-color:#000;  font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;  font-size:90%;  color:#FFF}
+span.link {color:#ff6}
+table.sortable {
+  margin-left: auto;
+  margin-right: auto;
+	border-spacing: 10px 0px;
+}
+table.sortable tbody td {
+	text-align: center;
+}
+table.sortable tbody tr:nth-child(2n+1) {
+	  background-color: #00002D;
+}
+table.sortable tbody tr:hover {
+	  background-color: #333333;
+}
