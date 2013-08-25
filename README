@@ -14,6 +14,10 @@ Requires a Web server set up to run Perl scripts as CGI and to look for
 Place the files in a folder served by your Web server. 
 The folder must be writable by the Web server user for caching to work (!).
 
+To get your own guild.xml, type "/dumpguild" ingame, then upload this file
+ (usually C:\Users\<User>\Documents\RIFT\guild.xml) to the folder you placed
+ the rest of the files.
+
 To regenerate based on new info, just upload a new guild.xml and refresh the 
  page in your browser.
 
